@@ -6,7 +6,7 @@ class Object:
         self.velocity = np.array(velocity)
 
     def update_position(self, time):
-        self.position += self.velocity * time
+        self.position += self.velocity * time # <-- Difference Equation
 
 def main():
     # Initial object parameters
