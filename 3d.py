@@ -70,4 +70,4 @@ def threedeeDeadReckoning(num_changes):
     plt.show()
 
 if __name__ == "__main__":
-    threedeeDeadReckoning(num_changes=5) # Specify the number of velocity changes
+    threedeeDeadReckoning(num_changes=20) # Specify the number of velocity changes
